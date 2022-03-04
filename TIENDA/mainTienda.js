@@ -143,7 +143,7 @@ function displayCart() {
     <div class="price">${item.precio}€</div>
     </tr>
     
-    <tr> <div class="cantidad">${item.inCart}</div></tr>
+    <tr> <div class="_">${item.inCart}</div></tr>
     <tr><div class="total">${item.inCart * item.precio}€</div></tr>
   </table>      
   </div>

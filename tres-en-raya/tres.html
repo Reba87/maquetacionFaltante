@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./tres.css">
+  <title>Tres en raya</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Tres en raya</h1>
+    <ul id="game">
+        <!-- Primera linea -->
+        <li data-pos="0,0"></li>
+        <li data-pos="0,1"></li>
+        <li data-pos="0,2"></li>
+        <!-- Segunda linea -->
+        <li data-pos="1,0"></li>
+        <li data-pos="1,1"></li>
+        <li data-pos="1,2"></li>
+        <!-- Tercera linea-->
+        <li data-pos="2,0"></li>
+        <li data-pos="2,1"></li> 
+        <li data-pos="2,2"></li>
+    </ul>
+    
+    <button id="reset-game">Reset</button>
+    
+    <!-- Mensajes -->
+    <div id="game-messages">
+        <span class="player-x-win">JUGADOR 1 GANA</span>
+        <span class="player-o-win">JUGADOR 2 GANA</span>
+        <span class="draw">EMPATE</span>
+    </div>
+    
+    <aside id="nfo">
+        <h2>Es el turno de:</h2>
+        <div id="whos-turn" class="x">
+            <span class="x">Jugador 1</span>
+            <span class="o">Jugador 2</span>
+        </div>
+        
+        <h2>Puntaje</h2>
+        <div id="score">
+            Jugador 1: <span id="player-one-score">0</span> <br />
+            Jugador 2: <span id="player-two-score">0</span> <br />
+        </div>
+    </aside>
+</div>
+<script src="./original.js"></script>
+</body>
+</html>
