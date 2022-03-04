@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=League+Gothic&display=swap');
+
+
+.card-title{
+    font-family: 'DM Sans', sans-serif;
+    font-size:22px;
+}
+.card-text{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 18px;
+}
+.card-img-top{
+    height:400px;
+}
+.price{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 22px;
+}
+
+
+/* CARRITO */
+
+.container-productos{
+    max-width: 650px;
+    display: flex;
+    justify-content:space-between;
+    margin-top:50px;
+}
+.title-productos{
+    width: 100%;
+    max-width:650px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 4px solid gray;
+    margin:0 auto;
+}
+.title-producto{
+    font-size:25px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.title-precio{
+    font-size:25px;
+    font-family: 'League Gothic', sans-serif;
+    display: flex;
+    align-items: center
+}
+.title-cantidad{
+    font-size:25px;
+    font-family: 'League Gothic', sans-serif;
+    display: flex;
+    align-items: center
+}
+.title-total{
+    font-size:25px;
+    font-family: 'League Gothic', sans-serif;
+    display: flex;
+    align-items: center
+}
+.producto{
+    
+    display: flex;
+    flex-direction: row;
+    
+    height: 150px;
+}
+.imgCart{
+    display: flex;
+    height:100px;
+    width:auto;
+
+}
+.img{
+    margin-left: 80px;
+}
+.nombre{
+    font-size:18px;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+}
+.price{
+    font-size:18px;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    margin-left:120px;
+    text-align: center;
+}
+.cantidad{
+    font-size:18px;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    margin-left: 150px;
+    text-align: center;
+}
+.total{
+    font-size:18px;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    margin-left: 120px;
+    text-align: center;
+}
+.delet{
+    font-size:20px;
+    color: rgb(255, 0, 0);
+    font-family: 'League Gothic', sans-serif;
+}
+.totalCart{
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.titleTotal{
+    font-size: 25px;
+}
+.totalCompra{
+    font-size: 25px;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>OldMan</title>
+  <link rel="icon" type="image/png" href="./rsc/favicon.svg" width="50">
+  <link rel="stylesheet" href="./style-tienda.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-toggler navbar-expand-md bg-dark nav-justify-content-center">
+    <div class="container mb-5">
+      <a class="navbar-brand text-white mb-5" href="#"><img class="img" src="./rsc/logo.svg" height="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-lg-5" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="#">
+            <h3>Home</h3>
+          </a>
+          <a class="nav-link text-white " href="#">
+            <h3>About</h3>
+          </a>
+          <a class="nav-link text-white" href="#"></a>
+          <a class="nav-link text-warning" id="cart" href="./cart.html">
+            <h3>Cart <span class="span">0</span> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+            </svg></h3>
+            
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" btn>
+
+
+    <div class="container-fluid">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-tooltip">
+          <div class="caraousel-tooltip-item active" data-index="0">
+
+            </a>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/15/58/camera-1840054_960_720.jpg" alt="..."
+              style="width:100%">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2019/04/14/17/18/gun-4127187_960_720.jpg" alt="..."
+              style="width:100%">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2017/04/06/11/24/fashion-2208045_960_720.jpg" alt="..."
+              style="width:100%">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/17/24/woman-1853936_960_720.jpg" alt="..."
+              style="width:100%">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2016/08/08/11/28/briefcase-1578138_960_720.jpg" alt="..."
+              style="width:100%">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  </div>
+  <!-- primera linea productos  -->
+
+  <div class="container">
+    <div class="row col-12" style="padding-top:20px; justify-content:space-around">
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+
+          <div class="card">
+            <img src="./img/Blazer.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vintage Blazer</h5>
+              <p class="card-text">Vintage Ratner Blazer, Chaqueta de traje de Ratner, abrigo deportivo vintage.</p>
+              <p class="price" id="price">150€</p>
+              <a class="btn btn-primary" id="addCard-1">Add to Car</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/Harley.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chaleco Harley Davidson</h5>
+              <p class="card-text">Chaleco de la motocicleta, equipo de montar, cuero riding chaleco,equipo de montar,
+                cuero riding chaleco.</p>
+              <p class="price" id="price">200€</p>
+              <a class="btn btn-primary"  id="addCard-2">Add to Car</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/Sombrero.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sombrero Vintage</h5>
+              <p class="card-text">Bantam vintage gris claro fedora de los años 80. Fedora. Sombrero para hombres.</p>
+              <p class="price" id="price">50€</p>
+              <a class="btn btn-primary"  id="addCard-3">Add to Car</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- segunda linea productos  -->
+      <div class="container">
+        <div class="row col-12" style="padding-top:20px; justify-content:space-around">
+
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+
+              <div class="card">
+                <img src="./img/Jacket.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vintage Jacket</h5>
+                  <p class="card-text">Vintage 90s retro 80s oldschool, chaqueta de cuero vintage, interior borrego.
+                  </p>
+                  <p class="price" id="price">80€</p>
+                  <a class="btn btn-primary"  id="addCard add4">Add to Car</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/Chaleco.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaleco 1940s</h5>
+                  <p class="card-text">Vintage Hombre 1940s Seda Negra y Lana Chaleco Formal chaleco, en perfectas
+                    condiciones.</p>
+                  <p class="price" id="price">50€</p>
+                  <a class="btn btn-primary" id="addCard 5">Add to Car</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/Mickey.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mickey Mouse Chaqueta</h5>
+                  <p class="card-text">Vintage 1990s 90s Disneyland Disney Victory Mickey Mouse Chaqueta de cuero marrón
+                    Talla L Grande.</p>
+                  <p class="price" id="price">400€</p>
+                  <a class="btn btn-primary" id="addCard 6">Add to Car</a>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script class="scriptinterno" src="mainTienda.js"></script>
+</body>
+
+</html>
